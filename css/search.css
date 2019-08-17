@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.S {
+	width: 100%;
+	height: 156px;
+	margin: auto;
+
+}
+
+.s {
+	width: 1000px;
+	height: 156px;
+	margin: auto;
+}
+
+.roglogo {
+	display: inline-block;
+	float: left;
+	margin-top: 12px;
+}
+
+.search {
+	display: inline-block;
+	width: 550px;
+	height: 86px;
+	margin-left: 120px;
+	float: left;
+}
+
+.search-top {
+	width: 480px;
+	height: 40px;
+	margin-top: 44px;
+	
+}
+
+.ss {
+	width: 60px;
+	height: 40px;
+	background-color: red;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	border: 0px;
+}
+
+.ss a {
+	font-family: "仿宋";
+	font-size: larger;
+	color: white;
+}
+
+.search-recommend {
+	display: inline-block;
+	width: 550px;
+	height: 66px;
+	margin-left: 120px;
+}
+
+.search-recommend a {
+	font-family: "仿宋";
+	font-size: larger;
+}
+
+.search input {
+	width: 400px;
+	height: 40px;
+	border: 5px solid red;
+	font-family: "仿宋";
+	font-size: larger;
+	float: left;
+	background: url(../img/search.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: 3px center;
+	padding-left: 28px;
+}
+
+input:focus {
+	outline-style: none;
+}
+
+
+

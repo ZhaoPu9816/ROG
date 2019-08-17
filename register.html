@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="css/Register.css"/>
+	</head>
+	<body>
+		<div id="registerWin">
+			<div id="icon">
+				<h2>用户注册</h2>
+			</div>
+			<form>
+				<table class="innerTable">
+					<tr>
+						<td class="td-left">*用户名：</td>
+						<td class="td-input"><input type="text" name="userName" id="userName" value="" /></td>
+						<td class="td-tip">用户名为6位-15位字母或数字的组合</td>
+					</tr>
+					<tr>
+						<td class="td-left">*密码：</td>
+						<td class="td-input"><input type="password" name="password" id="password" value="" /></td>
+						<td class="td-tip">密码为6位-15位字符</td>
+					</tr>
+					<tr>
+						<td class="td-left">*密码确认：</td>
+						<td class="td-input"><input type="password" name="repassword" id="repassword" value="" /></td>
+						<td class="td-tip">请再次填写一遍密码</td>
+					</tr>
+					<tr>
+						<td class="td-left">*电话号码：</td>
+						<td class="td-input"><input type="text" name="phone" id="phone" value="" /></td>
+						<td class="td-tip">请输入电话号码</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="center">
+							<input type="button" class="btn" id="submitButton" value="提交"/>
+							<input type="button" class="btn" id="cancelButton" value="取消"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript" src="js/Reg.js" ></script>

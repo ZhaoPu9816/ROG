@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sign {
+	height: 700px;
+}
+
+.sign-head {
+	width: 1000px;
+	margin: auto;
+}
+
+.sign-body {
+	width: 1280px;
+	height: 650px;
+	margin: auto;
+	background: url(../img/zm2.jpg)no-repeat;
+	background-size: 1280px 650px;
+	background-position: ;
+}
+
+.tangram {
+	float: left;
+	margin-left: 50%;
+	margin-top: 100px;
+	width: 380px;
+	height: 450px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #FF2D52;
+}
+
+.tangram-head span,
+.tangram-head a,
+.tangram-down span,
+.tangram-down a,
+.thirdParty span {
+	line-height: 50px;
+	font-family: "楷体";
+	color: rgba(255,45,82,0.6);
+	margin-left: 5px;
+}
+
+.tangram-head span {
+	font-size: x-large;
+	margin-left: 38px;
+}
+
+.tangram a {
+	font: larger;
+	float: right;
+	margin-right: 30px;
+}
+
+.tangram-body input {
+	height: 36px;
+	width: 300px;
+	margin-left: 32px;
+	margin-top: 25px;
+	/*display: block;
+	position: relative;*/
+	padding: 10px 8px;
+	border: 1px solid #ddd;
+	transition: .3s;
+	font-size: 18px;
+	color: #666;
+}
+
+.tangram-down input {
+	margin-left: 35px;
+	position: relative;
+	top: 2px;
+}
+
+.sign-btn {
+	height: 40px;
+	line-height: 40px;
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 800;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+	background-color: rgba(255,45,82,0.6) ;
+}
+
+.thirdParty {
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 30px;	
+}
+
+.thirdParty span {
+	line-height: 30px;
+	font-size: large;
+}
+
+.thirdParty img {
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+	position: relative;
+	top: 4px;
+}
+
+.space {
+	height: 100px;
+}

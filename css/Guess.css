@@ -1,0 +1,29 @@
+.guess {
+	margin-top: 10px;
+	width: 1000px;
+	margin: auto;
+}
+
+.guess-head {
+	height: 50px;
+}
+
+.guess-head span {
+	font-family: "楷体";
+	font-size: xx-large;
+	color: #ff2d52;
+}
+
+.guess-head-text {
+	font-family: "楷体";
+	font-size: large;
+}
+
+.guess-body {
+	height: 258px;
+}
+
+.guess-body img {
+	width: 168px;
+	height: 168px;
+}
