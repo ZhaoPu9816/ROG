@@ -47,7 +47,8 @@
 	margin-left: 38px;
 }
 
-.tangram a {
+.tangram a,
+.tangram-head a {
 	font: larger;
 	float: right;
 	margin-right: 30px;
@@ -55,7 +56,7 @@
 
 .tangram-body input {
 	height: 36px;
-	width: 300px;
+	width: 310px;
 	margin-left: 32px;
 	margin-top: 25px;
 	/*display: block;
@@ -73,11 +74,12 @@
 	top: 2px;
 }
 
-.sign-btn {
+.sign-btn,
+.register-btn {
 	height: 40px;
 	line-height: 40px;
-	width: 300px;
-	margin-left: 40px;
+	width: 310px;
+	margin-left: 32px;
 	margin-top: 20px;
 	font-size: 18px;
 	font-weight: 800;
@@ -85,6 +87,10 @@
 	color: #fff;
 	border: 0;
 	background-color: rgba(255,45,82,0.6) ;
+}
+
+.register-btn {
+	margin-top: 0px;
 }
 
 .thirdParty {
@@ -108,4 +114,40 @@
 
 .space {
 	height: 100px;
+}
+
+/*注册*/
+.register {
+	float: left;
+	margin-left: 50%;
+	margin-top: 100px;
+	width: 380px;
+	height: 450px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #FF2D52;
+	display: none;
+}
+
+#yzm {
+	width: 200px;
+}
+
+.hqyzm {
+	height: 36px;
+	line-height: 36px;
+	width: 100px;
+	margin-left: 10px;
+	background-color: rgba(255,45,82,0.6);
+	color: white;
+	border: 0;
+}
+
+.xy {
+	margin: 20px 32px 20px;
+	line-height: 30px;
+}
+
+.xy input {
+	vertical-align: middle;
+	margin-right: 5px;
 }

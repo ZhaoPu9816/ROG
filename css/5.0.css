@@ -1,7 +1,7 @@
 .header {
 	width: 1000px;
-	height: 600px;
 	margin: auto;
+	margin-bottom: 30px;
 }
 
 /*小导航*/
@@ -59,4 +59,127 @@
 	color: white;
 }
 
+/*下部分*/
+.body {
+	width: 1000px;
+	margin: auto;
+}
 
+/*猜你喜欢*/
+.detail-guess {
+	width: 250px;
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+.detail-guess-title {
+	height: 40px;
+	background-color: papayawhip;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+.detail-guess li {
+	height: 90px;
+	border-top: 1px solid #ccc;
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.detail-guess img {
+	height: 70px;
+	width: 70px;
+}
+
+.detail-guess-img {
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+}
+
+.detail-guess-name {
+	height: 80px;
+	width: 150px;
+	margin-top: 10px;
+}
+
+.detail-guess-name span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+/*筛选*/
+.screen {
+	width: 730px;
+	margin-left: 20px;
+}
+
+.screen-title {
+	height: 40px;
+	line-height: 39px;
+	background-color: papayawhip;
+	border: 1px solid #ccc;
+}
+
+.screen-title li {
+	width: 70px;
+	float: left;
+	text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.screen-title li:nth-child(-n+5):hover {
+	background-color: #FF2D52;
+	border-right: 1px solid #FF2D52;
+}
+
+.screen-title li:nth-child(6) {
+	width: 120px;
+}
+
+.screen-title input {
+	width: 30px;
+}
+
+.flip {
+	margin-top: 6px;
+	width: 100px;
+	line-height: 26px;
+}
+
+.flip button {
+	width: 20px;
+	height: 26px;
+	border: 0;
+	background-color: #CCC;
+}
+
+.flip span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.screen-content {
+	margin-top: 20px;
+}
+
+.screen-content li {
+	width: 170px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.screen-content span {
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.screen-content img{
+	width: 160px;
+	height: 160px;
+}

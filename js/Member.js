@@ -38,4 +38,5 @@ function DY_scroll(wraper, prev, next, img, speed, or) {
 
 	}
 }
+
 DY_scroll('.img-scroll', '.prev', '.next', '.img-list', 3, false);
