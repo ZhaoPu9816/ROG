@@ -1,0 +1,62 @@
+.header {
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+}
+
+/*小导航*/
+.cat {
+	height: 50px;
+	width: 1000px;
+	line-height: 50px;
+}
+/*挑选条件*/
+.nav {
+	line-height: 30px;
+	border: 1px solid #ccc;
+}
+
+.nav-row {
+	border-bottom: 1px solid #ccc;
+}
+
+.nav-row:last-child {
+	border-bottom: 0;
+}
+
+.sq {
+	width: 60px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.nav span {
+	width: 150px;
+	float: left;
+	text-align: right;
+	padding: 20px;
+	
+}
+
+.nav-child {
+	padding: 20px;
+	width: 700px;
+	border-left: 1px solid #ccc;
+	vertical-align: -10px;
+}
+
+.nav-child li {
+	margin-left: 30px;
+	float: left;
+	
+}
+
+.nav-child li:hover {
+	background-color: #FF2D52;
+	color: white;
+}
+
+

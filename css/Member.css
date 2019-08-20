@@ -1,0 +1,243 @@
+.member {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid #CCCCCC;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*左部分*/
+.member-l {
+	width: 200px;
+	
+}
+
+.title {
+	height: 70px;
+	padding: 15px;
+	background-color: mistyrose;
+}
+
+.title-tb {
+	vertical-align: middle;
+}
+
+.member-l span {
+	font-size: x-large;
+	line-height: 40px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.member-l-menu {
+	padding: 15px;
+}
+
+.member-menu {
+	padding-left: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+}
+
+.member-menu:last-child {
+	border-bottom: none;
+}
+
+.member-menu>li {
+	list-style: square;
+}
+
+.member-menu-child {
+	line-height: 36px;
+}
+
+.member-menu-child li:hover {
+	color: #FF2D52;
+}
+
+/*右部分*/
+.member-r {
+	width: 798px;
+	padding: 20px;
+	border-left: 1px solid #ccc;
+}
+/*上*/
+.member-r-head {
+	height: 120px;
+	border: 1px solid #CCCCCC;
+	background-color: mistyrose;
+	padding: 20px;
+}
+
+.tx,
+.tx img {
+	width: 80px;
+	height: 80px;
+}
+
+.tx {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.ye img {
+	width: 15px;
+	height: 15px;
+}
+
+.ye {
+	margin-left: 20px;
+	line-height: 26px;
+	font-size: small;
+}
+
+.ye img {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.ye button {
+	width: 50px;
+	height: 30px;
+	border: 0;
+	border-radius: 5px;
+	margin-left: 8px;
+	background-color: #FF2D52;
+	color: white;
+}
+
+.spriteMain li {
+	width: 90px;
+	height: 70px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	font-family: "楷体";
+	border: 1px solid mistyrose;
+}
+
+.spriteMain li:hover {
+	border: 1px solid #FF2D52;
+}
+
+.sprite {
+	margin: 3px auto;
+	width: 44px;
+	height: 42px;
+	/*border: 1px solid #ccc;*/
+	background: url(../img/sprite.png);
+}
+
+#sprite1 {
+	background-position: 0 -193px;
+}
+
+#sprite2 {
+	background-position: -78px -196px;
+}
+
+#sprite3 {
+	background-position: -159px -196px;
+}
+
+#sprite4 {
+	background-position: -237px -199px;
+}
+
+/*下*/
+.member-r-body {
+	height: 655px;
+}
+
+.member-box-title {
+	line-height: 50px;
+	background-color: mistyrose;
+	padding-left: 20px;
+}
+
+.member-box-title a {
+	margin-right: 20px;
+	color: #FF2D52;
+	
+}
+
+.member-box {
+	margin-top: 20px;
+	width: 360px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 37px;
+}
+
+.member-box:nth-child(1),
+.member-box:nth-child(3) {
+	margin-left: 0px;
+}
+
+.member-box-content {
+	padding: 20px 10px 20px;
+}
+
+/*按钮切换图片*/
+.img-scroll {
+	position: relative;
+	width: 340px;
+}
+
+.img-scroll .prev,
+.img-scroll .next {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 80px;
+	background-color: white;
+	top: 0;
+	color: #ccc;
+	text-align: center;
+	line-height: 80px;
+	font-size: x-large;
+}
+
+.img-scroll .prev:hover,
+.img-scroll .next:hover {
+	color: #FF2D52;
+}
+
+.img-scroll .prev {
+	left: 0;
+	cursor: pointer;
+}
+
+.img-scroll .next {
+	right: 0;
+	cursor: pointer;
+}
+
+.img-list {
+	position: relative;
+	width: 260px;
+	height: 80px;
+	margin-left: 40px;
+	overflow: hidden
+}
+
+.img-list img {
+	width: 80px;
+	height: 80px;
+}
+
+.img-list ul {
+	width: 500px;
+}
+
+.img-list li {
+	float: left;
+	display: inline;
+	width: 80px;
+	margin-right: 10px;
+	height: 80px;
+	background-color: #BDBDDF;
+	text-align: center;
+	line-height: 80px;
+}
+
