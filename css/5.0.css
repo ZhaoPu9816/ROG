@@ -63,6 +63,7 @@
 .body {
 	width: 1000px;
 	margin: auto;
+	margin-bottom: 20px;
 }
 
 /*猜你喜欢*/
@@ -114,6 +115,7 @@
 .screen {
 	width: 730px;
 	margin-left: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 .screen-title {
@@ -162,13 +164,20 @@
 }
 
 .screen-content {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 
 .screen-content li {
-	width: 170px;
-	padding: 5px;
+	width: 175px;
+	padding: 9px;
 	border: 1px solid #ccc;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.screen-content li:nth-child(4n-3) {
+	margin-left: 0px;
 }
 
 .screen-content span {
@@ -180,6 +189,53 @@
 }
 
 .screen-content img{
-	width: 160px;
-	height: 160px;
+	width: 155px;
+	height: 155px;
+}
+
+/*翻页*/
+.fy {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.page-box .page {
+	display: inline-block;
+}
+
+.page-box .button {
+	width: 40px;
+	height: 40px;
+	background: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: small;
+}
+
+.page-box .page:first-child .button,
+.page-box .page:last-child .button {
+	width: 80px;
+}
+
+.page-box .button:hover {
+	background: #717171;
+	color: white;
+	border-color: #717171;
+}
+
+.page-box .button.disabled {
+	background: #F6F6F6;
+	color: #CCCCCC;
+	border-color: #CCCCCC;
+	cursor: not-allowed;
+}
+
+.page-box .button.current {
+	background: #717171;
+	color: #F6F6F6;
+	border-color: #717171;
 }
