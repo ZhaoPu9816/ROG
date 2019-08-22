@@ -96,3 +96,40 @@ tostep3.click(function() {
 //	})
 //	$('.step-text3').css("color","#FF2D52")
 //})
+
+//验证码
+var cook = $.cookie('cook')
+console.log(cook)
+if(cook) {
+	countDown(cook)
+}
+
+$('.hqyzm').click(function() {
+	var _this = this
+	if($(this).hasClass('disabled')) {
+		return
+	}
+	countDown(10)
+})
+
+function countDown(count) {
+	
+	$('.hqyzm').addClass('disabled')
+	$('.hqyzm').html(count + 's重新获取')
+	
+	var timer = setInterval(function() {
+		
+		count--
+		$('.hqyzm').html(count + 's重新获取')
+		$.cookie('cook',count)
+		console.log($.cookie('cook'))
+		
+		if(count <= 0) {
+			clearInterval(timer)
+			$(".hqyzm").removeClass('disabled').html('重新获取')
+			$.removeCookie('cook')
+		}
+		
+	},1000)
+	
+}

@@ -151,7 +151,7 @@
 					<ul>
 						<li>
 							<div class="detail-guess-img leftAlignment">
-								<img src="img/404zfx.jpg" />
+								<img data-original="img/404zfx.jpg" />
 							</div>
 							<div class="detail-guess-name leftAlignment">
 								<span>商品名稱，顯示兩排，超出隱藏，隱藏部分</span>
@@ -163,7 +163,7 @@
 					<ul>
 						<li>
 							<div class="detail-guess-img leftAlignment">
-								<img src="img/404zfx.jpg" />
+								<img data-original="img/404zfx.jpg" />
 							</div>
 							<div class="detail-guess-name leftAlignment">
 								<span>商品名稱，顯示兩排，超出隱藏，隱藏部分</span>
@@ -175,7 +175,7 @@
 					<ul>
 						<li>
 							<div class="detail-guess-img leftAlignment">
-								<img src="img/404zfx.jpg" />
+								<img data-original="img/404zfx.jpg" />
 							</div>
 							<div class="detail-guess-name leftAlignment">
 								<span>商品名稱，顯示兩排，超出隱藏，隱藏部分</span>
@@ -187,7 +187,7 @@
 					<ul>
 						<li>
 							<div class="detail-guess-img leftAlignment">
-								<img src="img/404zfx.jpg" />
+								<img data-original="img/404zfx.jpg" />
 							</div>
 							<div class="detail-guess-name leftAlignment">
 								<span>商品名稱，顯示兩排，超出隱藏，隱藏部分</span>
@@ -199,7 +199,7 @@
 					<ul>
 						<li>
 							<div class="detail-guess-img leftAlignment">
-								<img src="img/404zfx.jpg" />
+								<img data-original="img/404zfx.jpg" />
 							</div>
 							<div class="detail-guess-name leftAlignment">
 								<span>商品名稱，顯示兩排，超出隱藏，隱藏部分</span>
@@ -609,3 +609,12 @@
 
 <script type="text/javascript" src="js/Details.js"></script>
 <script type="text/javascript" src="js/Magnifier.js" ></script>
+<script type="text/javascript" src="js/jquery.lazyload.js" ></script>
+
+<script>
+	$('img').lazyload({
+		effect: 'fadeIn',
+		threshold: 50,
+		placeholder: 'img/yqloading.gif'
+	})
+</script>

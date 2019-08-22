@@ -44,8 +44,6 @@ document.writeln("						</div>");
 document.writeln("					</div>");
 document.writeln("				</div>");
 document.writeln("");
-document.writeln("				<hr />");
-document.writeln("");
 document.writeln("				<div class=\'total\'>");
 document.writeln("					<span>总价：</span>");
 document.writeln("					<span>19998</span>");

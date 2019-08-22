@@ -107,7 +107,7 @@
 }
 
 .allwares {
-	height: 800px;
+	
 }
 
 .wares {
@@ -139,10 +139,14 @@
 }
 
 .total {
+	width: 298px;
 	line-height: 60px;
 	text-align: left;
 	font-size: 30px;
+	border-top: 1px solid #ccc;
 	background-color: rgba(250,250,250,0.9);
+	position: absolute;
+    bottom: 0;
 }
 
 /*客服*/

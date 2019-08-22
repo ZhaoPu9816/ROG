@@ -506,6 +506,10 @@ li {
 	font-family: "黑体";
 }
 
+.fontlarge {
+	font-size: large;
+}
+
 .leftAlignment {
 	float: left;
 }
@@ -524,6 +528,15 @@ li {
 
 .marL10 {
 	margin-left: 10px;
+}
+
+.marTB10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.fontgray {
+	color: gray;
 }
 
 .gray { 

@@ -118,6 +118,7 @@
 	width: 1000px;
 	margin: auto;
 	clear: both;
+	overflow: auto;
 }
 
 .group-content h4 {
