@@ -103,3 +103,4 @@ $(".reduce").click(function(){
     }
     $(this).next().val(num);
 });
+

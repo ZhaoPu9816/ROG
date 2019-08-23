@@ -40,3 +40,25 @@ function DY_scroll(wraper, prev, next, img, speed, or) {
 }
 
 DY_scroll('.img-scroll', '.prev', '.next', '.img-list', 3, false);
+
+//菜单栏切换
+//$('.smrz').click(function() {
+//	$('.member-default').hide()
+//	$('.myCoupon').hide()
+//	$('.certified').hide()
+//	$('.Rname').show()
+//	$('.member-Rname').show()
+//})
+//
+//$('.toRname').click(function() {
+//	$('.Rname').hide()
+//	$('.certified').show()
+//})
+//
+//$('.wdyhq').click(function() {
+//	$('.member-Rname').hide()
+//	$('.Rname').hide()
+//	$('.member-default').hide()
+//	$('.certified').hide()
+//	$('.myCoupon').show()
+//})

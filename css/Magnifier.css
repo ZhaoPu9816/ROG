@@ -57,21 +57,7 @@ ul {
 	width: 360px;
 	height: 80px;
 	border: 1px solid #eee;
-	margin-top: 20px;
 	display: flex;
-}
-
-.img_x img {
-	width: 50px;
-	height: 50px;
-}
-
-.img_x li {
-	width: 60px;
-	height: 60px;
-	border: 2px solid transparent;
-	margin: 8px 5px;
-	padding: 3px;
 }
 
 .img_u {
@@ -91,4 +77,71 @@ ul {
 
 .imgRight {
 	z-index: 10;
+}
+
+.member-box-content {
+	padding: 20px 10px 20px;
+}
+
+/*按钮切换图片*/
+.img-scroll {
+	position: relative;
+	width: 340px;
+}
+
+.img-scroll .prev,
+.img-scroll .next {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 80px;
+	background-color: white;
+	top: 0;
+	color: #ccc;
+	text-align: center;
+	line-height: 80px;
+	font-size: x-large;
+}
+
+.img-scroll .prev:hover,
+.img-scroll .next:hover {
+	color: #FF2D52;
+}
+
+.img-scroll .prev {
+	left: 0;
+	cursor: pointer;
+}
+
+.img-scroll .next {
+	right: 0;
+	cursor: pointer;
+}
+
+.img-list {
+	position: relative;
+	width: 260px;
+	height: 80px;
+	margin-left: 40px;
+	overflow: hidden
+}
+
+.img-list img {
+	width: 76px;
+	height: 76px;
+}
+
+.img-list ul {
+	width: 800px;
+}
+
+.img-list li {
+	float: left;
+	display: inline;
+	width: 80px;
+	margin-right: 10px;
+	height: 80px;
+	background-color: #BDBDDF;
+	text-align: center;
+	line-height: 80px;
 }

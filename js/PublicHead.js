@@ -4,7 +4,7 @@ document.writeln("			<div class=\'h\'>");
 document.writeln("				<div class=\'left\'>");
 document.writeln("					<a href=\'index.html\'>主页</a>");
 document.writeln("					<span>|</span>");
-document.writeln("					<a>导航</a>");
+document.writeln("					<a href='页面索引.html'>导航</a>");
 document.writeln("				</div>");
 document.writeln("				<div class=\'right\'>");
 document.writeln("					<a href=\'SignMain.html\'>登录</a>");
