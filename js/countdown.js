@@ -1,4 +1,4 @@
-﻿var Dtime = new Date('2019-8-14 18:00:00').getTime()
+﻿var Dtime = new Date('2019-8-30 18:00:00').getTime()
 
 setInterval(function() {
 	var now = new Date().getTime()
