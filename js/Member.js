@@ -39,10 +39,7 @@ function DY_scroll(wraper, prev, next, img, speed, or) {
 	}
 }
 
-DY_scroll('.img-scroll1', '.prev1', '.next1', '.img-list1', 3, false);
-DY_scroll('.img-scroll2', '.prev2', '.next2', '.img-list2', 3, false);
-DY_scroll('.img-scroll3', '.prev3', '.next3', '.img-list3', 3, false);
-DY_scroll('.img-scroll4', '.prev4', '.next4', '.img-list4', 3, false);
+//DY_scroll('.img-scroll', '.prev', '.next', '.img-list', 3, false);
 
 //菜单栏切换
 //$('.smrz').click(function() {
